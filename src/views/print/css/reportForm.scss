@@ -1,0 +1,33 @@
+.reportFormPrint {
+    .title {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        color: #333;
+    }
+    .content {
+        height: 90%;
+        .statisticsView {
+            margin: 30px 0 20px;
+            table tr td {
+                width: 10% !important;
+                height: 30px;
+                font-size: 13px;
+                color: #666;
+                span {
+                    color: #333;
+                    font-weight: 700;
+                }
+            }
+            table tr td.label {
+                width: 2% !important;
+                color: #333;
+                font-weight: 700;
+            }
+        }
+        .el-alert--info.is-light {
+            padding: 10px 0;
+            font-weight: 700;
+        }
+    }
+}

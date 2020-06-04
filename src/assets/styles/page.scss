@@ -1,0 +1,83 @@
+@import "mixin";
+@import "variables";
+
+//查询处的样式
+.search-view {
+  @include Flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.search-filter {
+  display: flex;
+  flex-wrap: wrap;
+  .search-btn {
+    margin-right: 30px;
+  }
+}
+
+.search-handle-view {
+  @include Flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+.search-handle-btn {
+  margin-left: 10px;
+}
+
+//异常事件处专用样式
+.abnormal-search-view {
+  margin-top: 6px;
+}
+.handleBtns {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.abnormal-handleBtn {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  position: relative;
+  .reloadBtn {
+    margin-left: 10px;
+    vertical-align: -1px;
+  }
+  .moreBtn {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+
+//content的标题和打印导出按钮样式
+.content-title {
+  padding: 0 0 20px;
+  text-align: center;
+  position: relative;
+  .text {
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+  }
+  .handle-btn {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+.handle-btn-view {
+  text-align: right;
+}
+._marginTopFu {
+  margin-top: -34px;
+}
+
+._title {
+  padding: 0 0 30px;
+  font-size: 16px;
+  color: #333;
+  font-weight: 700;
+  text-align: center;
+}

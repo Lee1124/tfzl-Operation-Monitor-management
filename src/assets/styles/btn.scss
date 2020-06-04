@@ -1,0 +1,24 @@
+@import 'variables';
+
+.btn1:hover{
+    background: $btnHoverBgColor!important;
+}
+
+.btn-label {
+    float: left;
+    padding: 8px 0;
+    font-size: 14px;
+}
+.btn-label-align3{
+    padding-left: 14px;
+}
+.btn-label-align4{
+    padding-left: 28px;
+}
+.btn-box {
+    float: left;
+    width: 208px;
+}
+.marginTopBt8{
+    margin: 8px 0;
+}
